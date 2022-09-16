@@ -1,5 +1,5 @@
 ---
-title: Available Data Products
+title: ESDI Compliant Data Products
 weight: 31.1
 ---
 

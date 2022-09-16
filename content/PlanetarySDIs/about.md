@@ -4,3 +4,5 @@ weight: 1
 ---
 
 High level.
+
+{{ partial "lastmod.html" . }}

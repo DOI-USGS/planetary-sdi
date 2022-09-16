@@ -1,10 +1,4 @@
 ---
 weight: 0
+title: Planetary SDIs
 ---
-Planetary SDIs
-
-<!-- spellchecker-disable -->
-
-{{< toc-tree >}}
-
-<!-- spellchecker-enable -->

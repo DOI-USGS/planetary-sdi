@@ -1,5 +1,0 @@
----
-title: Governance
----
-
-Governance Docs

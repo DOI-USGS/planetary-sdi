@@ -1,13 +1,14 @@
 ---
-baseURL: https://fdp.astrogeology.usgs.gov
-title: 'Foundational Data Products Knowledge Inventory'
+baseURL: https://psdi.astrogeology.usgs.gov
+title: 'Planetary SDI'
 canonifyURLs: true
+enableGitInfo: true
+bibFile: "content/bibliography.json"
 
 theme: 
   - hugo-geekdoc
   - hugo-cite
 
-bibFile: "content/bibliography.json"
 
 pygmentsUseClasses: true
 pygmentsCodeFences: true
@@ -21,7 +22,6 @@ enableGitInfo: true
 
 enableRobotsTXT: true
 
-container-max-width: 100rem
 
 markup:
   goldmark:
@@ -51,3 +51,7 @@ security:
     allow:
       - "^asciidoctor$"
 
+
+params:
+  geekdocRepo: "https://github.com/jlaura/planetary-sdi"
+  geekdocEditPath: "."

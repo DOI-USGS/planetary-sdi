@@ -1,4 +1,4 @@
 ---
-geekdocCollapseSection: false
+geekdocCollapseSection: true
 weight: 30
 ---
