@@ -52,4 +52,4 @@ jobs:
           aws-region: us-west-2
       
       - name: Upload to S3
-        run: aws s3 sync ./public/ s3://asc-docs/foundationaldataproducts/ --delete
+        run: aws s3 sync ./public/ s3://asc-docs/planetary-sdi/ --delete
