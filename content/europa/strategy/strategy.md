@@ -1,0 +1,29 @@
+---
+title: "Strategy"
+weight: 1
+---
+
+## Strategic Plan Overview and Executive Summary
+This Europa Spatial Data Infrastructure (SDI) Strategic Plan contains a high-level overview of the background, guiding principles, and philosophy of the Europa SDI and describes the primary strategic objectives from 2022 to 2025. This document explains where and how resources could be best spent to develop and implement the Europa SDI to support a coordinated and strategic effort to provide analysis ready data to Europa scientists and engineers, the Clipper and JUICE Mission teams, the planetary community, and the general public. This document also relates each of the strategic objectives listed below to actions that support accomplishing the objectives, and their anticipated outcomes, to ensure agreement on responsibilities, coherence, and timing for deliverables.
+
+## Background
+The Europa Spatial Data Infrastructure working group is a voluntary cooperation between planetary community members to evaluate existing spatial data and data standards for Europa and assess spatial data storage, acquisition, discovery, and use needs of the Europa community. The Europa SDI is endorsed by the NASA directed Mapping and Planetary Spatial Infrastructure Team (MAPSIT). A spatial data infrastructure (SDI) is the enabling collection of spatial data users, data interoperability agreements, policies and standards, data access mechanisms, and the spatial data themselves (Rajabifard et al., 2002). The overarching goal of the Europa SDI is to allow nonspatial data experts to use spatial data to the greatest extent possible, with the lowest possible overhead (Laura et al., 2018). This working group will address complexities by defining policies and standards that will be applicable to this Europa SDI regarding data interoperability, data contribution, and the long-term maintenance for the benefit of all user communities.
+ 
+The policy decisions for the Europa SDI consider the diverse groups interested in accessing high-quality and processed data, and include the Europa science and engineering communities, mission team needs for strategic planning and targeting observations (e.g., Clipper and JUICE), software application and tool developers, media relation activities, public engagement and education groups, and members of the general public. Understanding this diversity of long-term stakeholders, the Europa SDI strategy will first focus on the needs of scientists, engineers, mission teams, and software and tool developers, and then build on this understanding to inform future work to serve the larger community of users and stakeholders. The Europa SDI aims to improve the infrastructure for public access to and distribution of geospatial planetary data and help ensure that it is Findable, Accessible, Interoperable, and Reusable (FAIR; Wilkinson et al., 2016). It also aims to be a clearinghouse where data in a standardized format can be shared, duplication reduced, and community needs prioritized. In the context of the Europa SDI, a data clearinghouse house is a distributed system of data servers and services which have standardized metadata to facilitate data interoperability. The clearinghouse is a single access location that uses web standards to allow data discoverability. This working group will also help to ensure that valuable information is preserved for posterity in a way that is discoverable, has a high degree of usability, and can foster innovation and experimentation even while missions are actively collecting data (c.f. Planetary Data Ecosystem IRB Report, 2021).
+
+An SDI is an aspect of a Planetary Data Ecosystem (PDE), is complementary to the Planetary Data System (PDS) and serves a distinct need in the planetary community. An SDI is not an archive and therefore does not in any way replace the critical need for the PDS to ensure that NASA-collected data is preserved into antiquity. Instead, the Europa SDI working group aims to provide additional functionality, access, and services for Europa data that are built upon the important foundation the PDS provides (Laura et al., 2022), such as establishing policies, standards, and agreement between data providers that are focused on the needs of a specific community – in this case, those using data collected of Europa. The Europa SDI is a component of the PDE that is currently focusing on analysis ready data and metadata availability and services (Laura et al., 2022). 
+
+## Europa PSDI Vision and Mission
+**Vision:** The Europa Spatial Data Infrastructure will facilitate access to spatial information in support of mission planning, scientific investigation, and public outreach efforts.  
+ 
+**Mission:** The Europa Spatial Data Infrastructure mission is to promote cooperation and development of a Spatial Data Infrastructure that enables discovery, access, interoperability and sharing of Europa spatial data, while pursuing best data management practices (modeled after the Arctic SDI). 
+
+# Guiding Principals
+The following guiding principles are used to assess proposed activities and priorities when formulating and communicating the strategy of the Europa SDI: 
+ 
+The Europa Spatial Data Infrastructure: 
+·	Is a voluntary cooperation between planetary community members 
+·	Is focused principally on the relevant Europa data users, data providers, and stakeholders 
+·	Reflects user and stakeholder needs to enable interoperability and reusability via standardization 
+·	Remains focused on its strategic plan while developing infrastructure and services 
+·	Leverages existing NASA SDI and Planetary Data Ecosystem (PDE) investments 

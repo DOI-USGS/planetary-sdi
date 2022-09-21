@@ -9,11 +9,11 @@ The Europa Spatial Data Infrastructure team will evaluate existing spatial data 
 Publish and steward the policy infrastructure necessary to maintain this SDI including this charter, memorandums of understanding to support data release and sharing agreements, and a roadmap map of future development.
 
 Engage with the user community, funding agencies, and NASA Advisory Groups to ensure the efforts of this body maximally align with targeted user community needs.
-    - Publish and steward the policy infrastructure necessary to maintain this SDI, including a charter, governance documentation, memorandums of understanding to support data release and sharing agreements, and a roadmap of future development.
-    - Engage with the user community, funding agencies, and NASA Advisory Groups to ensure the efforts of this body maximally align with targeted user community needs.
-    - Publish an initial set of standards that will define this SDI including standardized vertical and horizontal datums (i.e., the coordinate system), accepted map projections, interoperable data formats, and metadata formats.
-    - Maintain, in conjunction with the Europa community, a living inventory of foundational and framework data products including quantitative (e.g., positional accuracy, resolution, data producer) and qualitative (e.g., fitness-for-use) metadata. This includes setting a standard for metadata to be reported for all data products managed under the Europa SDI organization.
-    - Provide a mechanism to link users, such as data creators (who make the data products), custodians (who manage the data products lifecycle), and data integrators (who provide the data to end users) to create an interconnected user group.
-    - Support (through policies and standards) the development of data discovery and access portals making use of Europa SDI managed data and associated Application Programming Interfaces (APIs).
-    - Ensure the public release of all Europa SDI managed data products and APIs.
-    - Engage with tool developers to ensure support for data and standards included in the Europa SDI.
+- Publish and steward the policy infrastructure necessary to maintain this SDI, including a charter, governance documentation, memorandums of understanding to support data release and sharing agreements, and a roadmap of future development.
+- Engage with the user community, funding agencies, and NASA Advisory Groups to ensure the efforts of this body maximally align with targeted user community needs.
+- Publish an initial set of standards that will define this SDI including standardized vertical and horizontal datums (i.e., the coordinate system), accepted map projections, interoperable data formats, and metadata formats.
+- Maintain, in conjunction with the Europa community, a living inventory of foundational and framework data products including quantitative (e.g., positional accuracy, resolution, data producer) and qualitative (e.g., fitness-for-use) metadata. This includes setting a standard for metadata to be reported for all data products managed under the Europa SDI organization.
+- Provide a mechanism to link users, such as data creators (who make the data products), custodians (who manage the data products lifecycle), and data integrators (who provide the data to end users) to create an interconnected user group.
+- Support (through policies and standards) the development of data discovery and access portals making use of Europa SDI managed data and associated Application Programming Interfaces (APIs).
+- Ensure the public release of all Europa SDI managed data products and APIs.
+- Engage with tool developers to ensure support for data and standards included in the Europa SDI.
