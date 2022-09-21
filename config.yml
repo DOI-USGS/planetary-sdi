@@ -1,5 +1,5 @@
 ---
-baseURL: https://psdi.astrogeology.usgs.gov
+baseURL: https://d2cfqlg52c7lpf.cloudfront.net/
 title: 'Planetary SDI'
 canonifyURLs: true
 enableGitInfo: true
