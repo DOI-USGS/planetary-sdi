@@ -1,5 +1,5 @@
 ---
-title: ESDI Compliant Data Services
+title: Europa SDI Compliant Data Services
 weight: 31.1
 ---
 

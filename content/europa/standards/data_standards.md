@@ -18,3 +18,6 @@ weight: 50
 - For derived data (e.g., DTMs), data should be made available at a reasonable resolution that avoids extrapolation of information.
 - Data for large spatial scale (e.g., 1:24000), small spatial extent maps, (e.g. landing sites) can be provided in an orthographic projection centered on image.
 - Data for polar areas (latitudes > 55˚ North or South) should use an orthographic projection centered on site or a polar stereographic projection centered at the pole
+
+## Ephemeris Information
+- All sun, spacecraft, sensor, and target body ephemeris information is to be provided either by [Navigation and Ancillary Information Facility (NAIF)](https://naif.jpl.nasa.gov/naif/) as SPICE kernels or in NAIF SPICE compliant format by another provider (e.g., a mission team). This includes sensor and target positions, velocities, and orientations as well as sensor parameters such as distortion models.
