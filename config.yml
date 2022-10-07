@@ -54,4 +54,4 @@ security:
 
 params:
   geekdocRepo: "https://github.com/jlaura/planetary-sdi"
-  geekdocEditPath: "."
+  geekdocEditPath: "/tree/main/"
