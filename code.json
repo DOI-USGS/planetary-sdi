@@ -1,8 +1,8 @@
 [
   {
-    "name": "swigcsm",
+    "name": "psdi_website",
     "organization": "U.S. Geological Survey",
-    "description": "Git repository containing SWIG wrappers for the CSM API",
+    "description": "Git repository containing the PSDI website code and content.",
     "version": "1.0.0",
     "status": "Production",
 
