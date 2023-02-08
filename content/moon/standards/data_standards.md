@@ -21,7 +21,7 @@ The horizontal datum to be used is the 2008 JPL DE 421, which, as per the LCDP-S
 At this time, no global visible observations are usable to rigorously align to the horizontal reference frame.
 
 ### Map Projections
-- See [cartographic standards]({{ ref "cartographic_standards" }}).
+- See [cartographic standards]({{< ref "cartographic_standards" >}}).
 
 ### Ephemeris Information
 - All sun, spacecraft, sensor, and target body ephemeris information is to be provided either by [Navigation and Ancillary Information Facility (NAIF)](https://naif.jpl.nasa.gov/naif/) as SPICE kernels or in NAIF SPICE compliant format by another provider (e.g., a mission team). This includes sensor and target positions, velocities, and orientations as well as sensor parameters such as distortion models.
