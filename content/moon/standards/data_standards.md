@@ -11,7 +11,7 @@ The [Report of the IAU Working Group on Cartographic Coordinates and Rotational 
 ### Horizontal and Vertical Datum
 Reference sphere defined as 1737.4km as defined by the IAU ([Archinal, et al. 2018](https://doi.org/10.1007/s10569-017-9805-5)). Proxy products usable to tie to the vertical reference frame (and have topography or shape) include:
 - [Gridded Lunar Orbiter Laser Altimeter (LOLA)](https://doi.org/10.17189/1520642)
-- SLDEM 2015
+- SLDEM 2015 (also part of the [LOLA](https://doi.org/10.17189/1520642) archive)
 - Lunar Polar Gridded Data Record
 
 The standard horizontal datum to be used is the 2008 JPL DE 421, which is expected to shift to the 2021 JPL DE 440 ephemeris (and new projects should begin using the DE 440). The proxy products that data creators can use to tie new data products to the horizontal reference frames include:
