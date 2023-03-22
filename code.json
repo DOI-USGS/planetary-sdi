@@ -1,8 +1,8 @@
 [
   {
-    "name": "swigcsm",
+    "name": "planetary-sdi",
     "organization": "U.S. Geological Survey",
-    "description": "Git repository containing SWIG wrappers for the CSM API",
+    "description": "Git repository containing the PSDI website code and content.",
     "version": "1.0.0",
     "status": "Production",
 
@@ -11,15 +11,15 @@
       "licenses": [
         {
           "name": "Public Domain, CC0-1.0",
-          "URL": ""
+          "URL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/1.0.0/LICENSE.md"
         }
       ]
     },
 
-    "homepageURL": "",
-    "downloadURL": "",
-    "disclaimerURL": "",
-    "repositoryURL": "",
+    "homepageURL": "https://code.usgs.gov/astrogeology/planetary-sdi/",
+    "downloadURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/archive/1.0.0/planetary-sdi-1.0.0.zip",
+    "disclaimerURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/1.0.0/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/astrogeology/planetary-sdi.git",
     "vcs": "git",
 
     "laborHours": 120,
