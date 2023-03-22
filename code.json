@@ -1,6 +1,48 @@
 [
   {
-    "name": "psdi_website",
+    "name": "planetary-sdi",
+    "organization": "U.S. Geological Survey",
+    "description": "Git repository containing the PSDI website code and content.",
+    "version": "main",
+    "status": "Development",
+
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/main/LICENSE.md"
+        }
+      ]
+    },
+
+    "homepageURL": "https://code.usgs.gov/astrogeology/planetary-sdi/",
+    "downloadURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/archive/main/planetary-sdi-main.zip",
+    "disclaimerURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/main/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/astrogeology/planetary-sdi.git",
+    "vcs": "git",
+
+    "laborHours": 120,
+
+    "tags": [
+      "Planetary",
+      "Spatial Data Infrastructure"
+    ],
+
+    "languages": [
+      "Go"
+    ],
+
+    "contact": {
+      "name": "Jason Laura",
+      "email": "jlaura@usgs.gov"
+    },
+
+    "date": {
+      "metadataLastUpdated": "2023-01-25"
+    }
+  },{
+    "name": "planetary-sdi",
     "organization": "U.S. Geological Survey",
     "description": "Git repository containing the PSDI website code and content.",
     "version": "1.0.0",
@@ -11,15 +53,15 @@
       "licenses": [
         {
           "name": "Public Domain, CC0-1.0",
-          "URL": ""
+          "URL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/1.0.0/LICENSE.md"
         }
       ]
     },
 
-    "homepageURL": "",
-    "downloadURL": "",
-    "disclaimerURL": "",
-    "repositoryURL": "",
+    "homepageURL": "https://code.usgs.gov/astrogeology/planetary-sdi/",
+    "downloadURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/archive/1.0.0/planetary-sdi-1.0.0.zip",
+    "disclaimerURL": "https://code.usgs.gov/astrogeology/planetary-sdi/-/raw/1.0.0/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/astrogeology/planetary-sdi.git",
     "vcs": "git",
 
     "laborHours": 120,
