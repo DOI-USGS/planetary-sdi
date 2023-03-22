@@ -17,9 +17,9 @@ clone_github:
     script:
         - echo $SOURCE_REPOSITORY
         - git config --global http.sslVerify false # Epic....
-        - rm -rf swigcsm  # Needed to allow multiple CI runs
-        - git clone --mirror $SOURCE_REPOSITORY swigcsm
-        - cd swigcsm
+        - rm -rf planetary-sdi  # Needed to allow multiple CI runs
+        - git clone --mirror $SOURCE_REPOSITORY planetary-sdi
+        - cd planetary-sdi
         - git remote remove origin
         - git remote add origin $DESTINATION_REPOSITORY
         - git push -f --prune --all
