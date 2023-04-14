@@ -10,10 +10,10 @@ Several performance indicators will be measured over the time period from 2022 t
  
 Performance indicators will include qualitative or quantitative metrics on: 
 - Relevance of Lunar SDI reference and thematic data to users 
-- ·	The use of the Lunar SDI Geoportal, web services, and metadata  
+- The use of the Lunar SDI Geoportal, web services, and metadata  
 - User satisfaction of reference and thematic data and services 
 - Known applications based on the Lunar SDI and their relevance 
-- ·	Lunar SDI policies and standards influence on the development of other NASA SDIs and other relevant management policies
+- Lunar SDI policies and standards influence on the development of other NASA SDIs and other relevant management policies
 
 ## Objectives and Anticipated Outcomes
 
@@ -159,8 +159,7 @@ We will identify groups developing tools or data portals targeted for use by the
 ### Actions
 |  | Action |	Status |
 |--|--------|----------|
-| 8.1	|Action
-Identify groups developing tools or data portals targeted for use by the Lunar community. |Future effort|
+| 8.1	|Identify groups developing tools or data portals targeted for use by the Lunar community. |Future effort|
 | 8.2	|Initiate communication with the above defined groups.	|Future effort|
 | 8.4	|Enable metrics to measure the use of the Geoportal, APIs, and the download of data. |	Future effort |
 | 8.5	|Enable metrics to measure usage of the API. |	Future effort |
