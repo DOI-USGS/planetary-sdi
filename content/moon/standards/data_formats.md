@@ -1,5 +1,5 @@
 ---
-title: Data Format Standards
+title: Lunar Data Format Standards
 weight: 60
 ---
 **DRAFT**
@@ -14,3 +14,7 @@ weight: 60
 - Data in raster format can be provided using an OGC compliant [WMS](https://www.ogc.org/standards/wms) service. This service must encode a proper [IAU 2015/2018 projection code](https://ui.adsabs.harvard.edu/abs/2021LPICo2549.7012H).
 - Data in vector format can be served using an OCG compliant [WFS](https://www.ogc.org/standards/wfs) or [WMTS](https://www.ogc.org/standards/wmts) service using the standards defined above. The server must encode a proper IAU 2015/2018 projection code.
 - The [STAC](https://stacspec.org)-API specification (a remotely accessible search service) will be used to support metadata query and data discoverability. 
+
+### Discussion
+
+{{< comments >}}

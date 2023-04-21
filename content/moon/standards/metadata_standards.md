@@ -1,5 +1,5 @@
 ---
-title: Metadata Standards
+title: Lunar Metadata Standards
 weight: 70
 ---
 
@@ -21,5 +21,9 @@ weight: 70
 ### Data Linkages and Unique Identifiers
 - Data derived from lower level data, stored in a long term archive, linkages back to the source data should be provided[^1].
 - Data not easily derived from lower level data should include a unique identifier (e.g., a DOI).
+
+### Discussion
+
+{{< comments >}}
 
 [^1]: Combined with the provenance files, this allows users to recreate products from source files, reproducing or modifying the processing pipeline as desired.

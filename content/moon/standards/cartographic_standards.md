@@ -1,5 +1,5 @@
 ---
-title: Cartographic Standards
+title: Lunar Cartographic Standards
 weight: 51
 ---
 **DRAFT**
@@ -15,3 +15,6 @@ weight: 51
 ### Vector Symbology
 - The OGC maintained [Styled Layer Descriptor](https://www.ogc.org/standards/sld) standard will be used for vector symbology for all data in the GeoPackage format.
 
+### Discussion
+
+{{< comments >}}

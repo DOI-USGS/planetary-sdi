@@ -9,17 +9,12 @@ theme:
   - hugo-geekdoc
   - hugo-cite
 
-
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 timeout: 180000
 pluralizeListTitles: false
-
 defaultContentLanguage: en
-
 disablePathToLower: true
-enableGitInfo: true
-
 enableRobotsTXT: true
 
 
@@ -53,5 +48,5 @@ security:
 
 
 params:
-  geekdocRepo: "https://github.com/jlaura/planetary-sdi"
+  geekdocRepo: "https://github.com/DOI-USGS/planetary-sdi"
   geekdocEditPath: "/tree/main/"

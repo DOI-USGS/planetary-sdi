@@ -11,4 +11,6 @@ We identify the following data gaps and wish to actively engage with the communi
 - Galileo [Near Infrared Mapping Spectrometer (NIMS)](https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1989-084B-01) data
 - Any and all geologic maps, including the soon to be released [global geologic map](https://planetcarto.wordpress.com/2019/09/23/the-first-global-geologic-map-of-europa/)
 
-The above listing is not exhaustive, as our knowledge of the available data products is not exhaustive. If you have a product and are interested in making it publicly available [get involved]({{< ref "get_involved" >}})! We are more than happy to help make these data available under the Europa SDI umbrella.
+The above listing is not exhaustive, as our knowledge of the available data products is not exhaustive. If you have a product and are interested in making it publicly available please reach out (comment below or email a member of the Europa SDI). We are actively seeking to work with data producers and data providers.! We are more than happy to help make these data available under the Europa SDI umbrella.
+
+{{< comments >}}

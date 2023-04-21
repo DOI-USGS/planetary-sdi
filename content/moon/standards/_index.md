@@ -14,3 +14,7 @@ Lunar SDI data that are compliant with these standards are said to be interopera
 For U.S. scientists, researchers, and technical staff, the standards described herein are designed to ensure compliance with the NASA published [SMD Policy Document SPD-41 a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf).
 
 [^1]: See either [Laura and Beyer (2021)](https://iopscience.iop.org/article/10.3847/PSJ/abcb94) or the [Foundational Data Products webpage](https://fdp.astrogeology.usgs.gov/fdp/about/) for a description of the different levels of photogrammetric control.
+
+### Discussion
+
+{{< comments >}}
