@@ -11,7 +11,6 @@ The Lunar SDI Working Group is the decision-making body of the SDI. The working 
 This working group consists of voluntary working group members and topical sub-groups.  There is one Chair, one Co-Chair, and an unlimited number of members.
 
 Current Membership Includes:
-Current Membership Includes:
 - Jason (Jay) Laura, Chair, USGS Astrogeology Science Center, jlaura@usgs.gov
 - Brent Archinal, USGS Astrogeology Science Center, barchinal@usgs.gov
 - Ross Beyer, SETI Institute and NASA Ames Research Center, rbeyer@seti.org
@@ -19,6 +18,7 @@ Current Membership Includes:
 - Laz Kestay, USGS Astrogeology Science Center, laz@usgs.gov
 - Noah Petro, Goddard Space Flight Center, noah.e.petro@nasa.gov
 - Julie Stopar, Lunar and Planetary Institute, stopar@lpi.usra.edu
+- Samuel Lawrence, Johnson Space Center, samuel.j.lawrence@nasa.gov
 
 Working group memberships are not time limited. There is no maximum size of the working group. The size is expected to vary to ensure adequate coverage of important areas of expertise, balanced with the ability to make decisions efficiently. The working group must have at least five members. Chairs and Co-Chair serve one-year terms from October 1 to September 30. During the August meeting, individuals self-nominate to serve as Co-Chair and the working group determines the new Co-Chair by majority vote. After the one-year term, the Co-Chair then serves as the working group Chair. A change of the Chair or Co-Chair can be made mid-year by the same process described above and as deemed necessary by consensus of the working group members. Mid-year changes are expected to be rare.
 
