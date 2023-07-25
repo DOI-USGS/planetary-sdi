@@ -21,9 +21,11 @@ Planetary SDIs are a community driven, cross institutional endeavour. By necessi
 <table>
 <tr>
 <td><img src="https://www.lpi.usra.edu/publications/newsletters/lpib/new/wp-content/uploads/2017/07/lpi_logo_fullname_002_black.png" width=200/></td>
-<td><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/edu_what_is_nasa_emblem.jpg" width=200/></td>
-<td><img src="https://www.seti.org/sites/default/files/styles/original/public/2018-05/seti_logo_starfield_560px.jpg?itok=3Gci_Y5-" width=200/></td>
-<td><img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/medium/public/thumbnails/image/usgs-placeholder_0.png?itok=AO6-JETt" width=200/></td>
+<td><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/edu_what_is_nasa_emblem.jpg" width=150/></td>
+<td><img src="https://www.seti.org/sites/default/files/styles/original/public/2018-05/seti_logo_starfield_560px.jpg?itok=3Gci_Y5-" width=150/></td>
+<td><img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/medium/public/thumbnails/image/usgs-placeholder_0.png?itok=AO6-JETt" width=150/></td>
+<td><img src="https://www.nga.mil/generated/assets/files/NGA_Seal_300dpi-1366px.webp" width=150/></td>
+<td><img src="https://yt3.googleusercontent.com/LUlKbDn7ClEGStUjJWrO6v4UIHy82dN2brDvWqZivHKyo_otyeLF1F7TOhZ4C3cP-d6xyHAo=s900-c-k-c0x00ffffff-no-rj" width=150/></td>
 </tr>
 </table>
 </span>
