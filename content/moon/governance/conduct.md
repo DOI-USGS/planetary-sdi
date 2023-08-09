@@ -1,19 +1,16 @@
 ---
-title: Lunar Spatial Data Infrastructure Code of Conduct 
-weight: 3
+title: Working Group Code of Conduct 
+weight: 2
 ---
 
-**DRAFT** 
+**DRAFT**  
 
-Version 1.0; September 22, 2022 
- 
-
-Our goal is to create a safe and productive environment for everyone and to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. This policy applies to the Lunar SDI community, our related interactions and meetings, interactions involving our community that occur outside of formal meetings, and when an individual is officially representing the Lunar SDI community in public spaces. Examples of representing our community include corresponding through e-mail, posting via a social media account, or acting as an appointed representative at an online or in-person event. Explicitly stating our expectations for our interactions improves inclusivity and accessibility for all, but especially for those with lower power due to not “fitting the norm” or those at a disadvantage due to less familiarity with the group and its typical dynamics. 
+Our goal is to create a safe and productive environment for everyone and to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. This policy applies to the Lunar SDI working group, our related interactions and meetings, interactions involving our community of users that occur outside of formal meetings, and when an individual is officially representing the Lunar SDI working group in public spaces. Examples of representing our community include corresponding through e-mail, posting via a social media account, or acting as an appointed representative at an online or in-person event. Explicitly stating our expectations for our interactions improves inclusivity and accessibility for all, but especially for those with lower power due to not “fitting the norm” or those at a disadvantage due to less familiarity with the group and its typical dynamics. 
  
  
 ## 1.0 Our Standards 
  
-The Lunar SDI Working Group strives to ensure that diverse voices are heard and considered. Thus, members are expected to listen to community members and to solicit relevant perspectives, concerns, and ideas from all people. Additionally, members are encouraged to contribute their own perspectives, concerns, and ideas into conversations. In such conversations, differences of opinion or contradictory needs might be expressed. In these cases, it is important to elevate the voices of those most impacted and those whose voices are often ignored. Listening to and thinking about feedback is also paramount. 
+The Lunar SDI working group strives to ensure that diverse voices are heard and considered. Thus, members are expected to listen to community members and to solicit relevant perspectives, concerns, and ideas from all people. Additionally, members are encouraged to contribute their own perspectives, concerns, and ideas into conversations. In such conversations, differences of opinion or contradictory needs might be expressed. In these cases, it is important to elevate the voices of those most impacted and those whose voices are often ignored. Listening to and thinking about feedback is also paramount. 
  
 Examples of behavior that contributes to a positive environment for our community include: 
 - Demonstrating empathy and kindness toward other people 
@@ -40,7 +37,7 @@ If the person who violated the Code of Conduct is a Chair or Co-Chair, they will
  
 ## 3.0 Enforcement Guidelines 
  
-The Lunar SDI Working Group is responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful. The Lunar SDI working group has the right and responsibility to remove, edit, or reject comments, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.  
+The Lunar SDI working group is responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful. The working group has the right and responsibility to remove, edit, or reject comments, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.  
  
 The Lunar SDI Co-Chairs will follow these Enforcement Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct (modeled from the Code of Conduct for Open Source Committees (https://www.contributor-covenant.org/): 
  
@@ -64,3 +61,7 @@ Consequence: A permanent ban from any sort of public interaction within the comm
 ## 4.0 Acknowledgement 
  
 Our Code of Conduct is adapted from several sources, including the [Professional Culture & Climate Subcommittee (PCCS) Division of Planetary Sciences of the American Astronomical Society](https://dps.aas.org/leadership/climate), the [Code of Conduct for Open Source Committees](https://www.contributor-covenant.org/), and Diniega et al., 2021. We gratefully acknowledge the thought and effort put into these documents that help us create a safe, inclusive, and productive environment for our community. 
+
+## About this Code of Conduct
+- Version: 1.0
+- Adopted: date adopted

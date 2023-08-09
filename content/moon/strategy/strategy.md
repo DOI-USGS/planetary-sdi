@@ -17,7 +17,7 @@ The recommendations made for the Lunar SDI consider the diverse groups intereste
 An SDI is one portion of the Planetary Data Ecosystem (PDE). It is complementary to the Planetary Data System (PDS) and other similar archives (e.g., ESA’s PSA) but serves a distinct need in the planetary community. An SDI does not in any way replace the critical need for archives to ensure that lunar data are preserved in perpetuity. Instead, the Lunar SDI working group aims to provide additional functionality, access, and services for Lunar data that are built upon the important foundation the PDS provides {{< cite "Laura:2022lpsc" >}}, such as establishing policies, standards, and agreement between data providers that are focused on the needs of a specific community – in this case, those using spatial data collected of the moon. 
 
 
-## Lunar PSDI Vision and Mission
+## Lunar SDI Vision and Mission
 **Vision:** The Lunar Spatial Data Infrastructure will facilitate access to spatial information in support of humankind’s exploration of the Moon.  
  
 **Mission:** The Lunar Spatial Data Infrastructure mission is to promote cooperation and development of a Spatial Data Infrastructure that enables discovery, access, interoperability and sharing of Lunar spatial data, while pursuing best data management practices (modeled after the [Arctic SDI](https://arctic-sdi.org/documents/strategic-documents/)). 

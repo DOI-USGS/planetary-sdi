@@ -27,6 +27,10 @@ At this time, no global visible observations are usable to rigorously align to t
 ### Ephemeris Information
 - All sun, spacecraft, sensor, and target body ephemeris information is to be provided either by [Navigation and Ancillary Information Facility (NAIF)](https://naif.jpl.nasa.gov/naif/) as SPICE kernels or in NAIF SPICE compliant format by another provider (e.g., a mission team). This includes sensor and target positions, velocities, and orientations as well as sensor parameters such as distortion models.
 
+### Data and Licensing Standards
+Data and derived products publicized and promoted by the Lunar SDI will conform to a set of standards to maximize interoperability, including standardized vertical and horizontal datums (i.e., the coordinate system), data documentation requirements, and metadata formats. Significant effort was made to use standards that are consistent with [International Astronomical Union](https://www.iau.org) recommendations, those in use by relevant mission teams, and that foster interoperability. See the Guidelines for Lunar Data Providers for detailed information regarding the standards and formats the Lunar SDI adheres to. 
+
+In addition, all data publicized and promoted by the Lunar SDI must use an open-data license. See the Guidelines for Lunar Data Providers for additional information regarding license guidance.
 ### Discussion
 
 {{< comments >}}

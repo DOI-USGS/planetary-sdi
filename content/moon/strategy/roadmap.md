@@ -18,22 +18,22 @@ Performance indicators will include qualitative or quantitative metrics on:
 
 ## Objectives and Anticipated Outcomes
 
-This plan contains information regarding how the strategic objectives will be implemented within the Lunar SDI including the anticipated outcomes, approach, and a table of actions including a general timeline. 
+This plan contains information regarding how the strategic objectives will be implemented within the Lunar SDI by the working group including the anticipated outcomes, approach, and a table of actions including a general timeline. 
  
 ### Objective 1
-Publish and steward the policy infrastructure necessary to maintain the Lunar SDI Working Group, including a charter, governance documentation, user and contributor agreements to support data release and sharing agreements, and a roadmap of future development.
+Publish and steward the policy infrastructure necessary to maintain the Lunar SDI working group, including a charter, governance documentation, user and contributor agreements to support data release and sharing agreements, and a roadmap of future development.
 
 #### Anticipated Outcomes
-Publishing and maintaining a policy infrastructure is one of the primary tenants of a Spatial Data Infrastructure (e.g., {{< cite "Laura:2018ess;Rajabifard:2002" >}}) and facilitates communication within the community, coordination between stakeholders, communicates expectations both of the SDI and from participating groups, and establishes efforts for the long-term maintenance of this infrastructure.
+Publicly accessible policy infrastructure served through a Lunar SDI web portal.
 
 #### Approach
 The primary approach includes writing documentation that describes:
-1. the Lunar SDI Working Group charter;
+1. the Lunar SDI working group charter;
 1. governance policy documentation; 
 1. strategic direction and a 4-year roadmap; 
 1. user and contributor agreements.   
     
-These documents will be drafted by Lunar SDI Working Group members and reviewed collectively. We will seek group consensus regarding all governance and strategy decisions. These documents will also be posted on a publicly available website so that members of the Lunar community can also comment and provide feedback. 
+These documents will be drafted by Lunar SDI working group members and reviewed collectively. We will seek group consensus regarding all governance and strategy decisions. These documents will also be posted on a publicly available website so that members of the Lunar community can also comment and provide feedback. 
 
 #### Actions
 |  | Action |	Status |
@@ -48,7 +48,7 @@ These documents will be drafted by Lunar SDI Working Group members and reviewed 
 Engage with the user community, funding sources, and other stakeholders to ensure the efforts of this body maximally align with targeted user community needs.
  
 #### Anticipated Outcomes
-Engaging a broad range of Lunar data users will help to ensure that our efforts strategically align with the needs of the community and will also inform this community of our efforts. In this way, potential users can learn of available data and future planned additions, while also providing opportunities to stay in step with the evolving needs of data users. The feedback we receive from users will help to inform current and future efforts and SDI direction.
+Alignment between the policies published by the Lunar SDI for data publication and the needs of members of the lunar exploration community.
 
 #### Approach
 We will initially engage traditional US stakeholders, including NASA, MAPSIT, and LEAG, and then expand to the wider community including international and commercial partners. A priority will be to engage active mission teams to seek collaborative engagement and ensure that our efforts are supportive and not redundant to mission team efforts. We will also engage the international planetary science and lunar exploration communities at annual meetings to obtain feedback on our efforts and collaborate with other interested groups. This approach helps us to initially understand the needs of scientists, engineers, mission teams, and software and tool developers. We will then build on this understanding to inform future work to serve the larger community of users and stakeholders, which in addition to the above groups include (but are not limited to) media relation activities, public engagement and education groups, and members of the general public. By engaging the Lunar data community through many different avenues, we aim to intersect and meet the data use needs of the broadest group possible.
@@ -67,10 +67,10 @@ We will initially engage traditional US stakeholders, including NASA, MAPSIT, an
 Publish an initial set of standards that will define this SDI including standardized vertical and horizontal datums (i.e., the coordinate system), accepted map projections, interoperable data formats, and metadata formats.
 
 #### Anticipated Outcomes
-A defined set of standards for the Lunar SDI will foster consistency in projections, data formats, and descriptive documentation in metadata. This consistency will lead to greater interoperability between components in this SDI and will result in data products that are immediately analysis ready by removing the need for additional data processing or reprojection.
+A defined set of standards published by the Lunar SDI describing projections, data formats, and descriptive documentation in metadata. These standards will lead to greater interoperability between components in this SDI and will frequently result in data products that are immediately analysis ready by removing the need for additional data processing.
 
 #### Approach
-Standards will be defined by considering current standards in use for the moon and those most often used by the Lunar community. We will consider existing IAU standards, and we seek to be consistent with standards defined by authoritative sources. When multiple or conflicting standards are in common use, we will determine the standard we believe best meets the needs of our user community through discussion within the Lunar SDI Working Group. We will publish these standards on a public website.
+Standards will be defined by considering current standards in use for the moon and those most often used by the Lunar community. We will consider existing IAU standards, and we seek to be consistent with standards defined by authoritative sources. When multiple or conflicting standards are in common use, we will determine the standard we believe best meets the needs of our user community through discussion within the Lunar SDI working group. We will publish these standards on a public website.
 
 #### Actions
 |  | Action |	Status |
@@ -82,10 +82,10 @@ Standards will be defined by considering current standards in use for the moon a
 
 
 ### Objective 4 
-Maintain, in conjunction with the Lunar community, a living inventory of foundational and framework data products including quantitative (e.g., positional accuracy, resolution, data producer) and qualitative (e.g., fitness-for-use) metadata. This includes setting a standard for metadata to be reported for all data products managed under the Lunar SDI organization.
+Maintain, in conjunction with members of the lunar exploration community, a living inventory of foundational and framework data products including quantitative (e.g., positional accuracy, resolution, data producer) and qualitative (e.g., fitness-for-use) metadata. This includes setting a standard for metadata to be reported for all data products managed under the Lunar SDI organization.
  
 #### Anticipated Outcomes
-Maintaining a living inventory of foundational and framework data products will benefit the Lunar data community by simplifying the search and discovery process. Collecting these data into a single clearinghouse, with descriptive and standards compliant metadata, allows the community to know what data products exist, the accuracy of those products, and whether they meet the needs of that use case. In addition, such an inventory allows NASA, mission teams, and data producers to identify gaps in knowledge that could be filled through future efforts.
+A publicly accessible living inventory of foundational and framework data products that simplifies the search and discovery process.
 
 #### Approach
 Our primary approach is to build on the efforts of {{< cite "Laura:2021ess" >}} and findings from the [Lunar Critical Data Products Specific Action Team](https://www.lpi.usra.edu/mapsit/standup-committees/LCDP-SAT-REPORT-20211110.pdf) (2021) use this information as an initial assessment of the publicly available foundational and framework data products for the moon. We will also engage data producers to determine interest in contributing to this SDI and determine the process to contribute additional data products.  As additional data products are published in the literature or through community data portals/catalogs (e.g., the Planetary Data System), we will include them in our inventory, link to the publicly available products, and assess including them in this SDI.
@@ -103,7 +103,7 @@ Our primary approach is to build on the efforts of {{< cite "Laura:2021ess" >}} 
 Provide a mechanism to bring users together, such as data producers (who make the data products), providers (who manage the data products lifecycle), and data integrators (who provide the data to end users) to create an interconnected user group. 
 
 #### Anticipated Outcomes
-The Lunar SDI benefits from maximizing the availability of interoperable Lunar data to support the broadest possible user community. As a communication tool, the Lunar SDI helps connect data creators with data stewards who ensure that generated data are broadly available. We anticipate this objective resulting in the identification of institutions that wish to act as data stewards and to whom data creators can submit data for inclusion in the Lunar SDI.
+A location where members of the lunar exploration community, including data producers, data providers, and data users can connect to ensure that lunar data are accessible, discoverable, and highly usable.
 
 #### Approach
 Our primary approach is to first lay the groundwork to incorporate data contributions from data creators in a transparent manner where the expectations of the data creators, custodians, and data integrators are clearly identified and documented. Planned initial steps include developing clear documentation of standards and formats that are expected for all data products in the Lunar SDI, ensuring such documentation is publicly available, and engaging Lunar data producers. Once this initial foundation is established, we will identify institutions that are willing and able to serve as data stewards and engage the broader data community in these efforts.
@@ -122,7 +122,7 @@ Our primary approach is to first lay the groundwork to incorporate data contribu
 Support (through policies and standards) the development of data discovery and access portals making use of Lunar SDI managed data and associated Application Programming Interfaces (APIs).
  
 #### Anticipated Outcomes
-Supporting the development of data discovery and data access by the broadest possible user community is a fundamental goal of the Lunar SDI. Through policies and standards, we will provide a framework by which data can be organized, identified, searchable, and used while minimizing the need for post-processing or reprojection of data. We anticipate that this focus on standardization and data discovery will enable Lunar data to be more easily discoverable in a format that is analysis ready, lead to a reduction in redundant data processing efforts across the Lunar community and potentially allow for current data processing resources to be used for science and engineering investigations.
+A published clearing house identifying the Lunar SDI stanards compliant data portals that data users know are well documented and highly interoperable.
 
 #### Approach
 Our approach to supporting data discovery and access is to develop policies and standards that are consistent with community leading practices. We will identify and implement practices that have demonstrated success in terrestrial and other communities and are relevant to the Lunar community.  We will also engage the Lunar community user groups to educate potential users on the availability of this SDI and solicit feedback on its usability. Finally, we will enable metrics on our websites and data portals to allow us to measure and evaluate how the community is interacting with our services and what data products and services are most impactful. These metrics will inform future efforts to modify our approaches and better support the Lunar data community.
@@ -137,13 +137,13 @@ Our approach to supporting data discovery and access is to develop policies and 
 
 
 ### Objective 7
-Ensure the public release of all Lunar SDI managed data products and APIs.
+Support the public release of all Lunar SDI publicized and promoted data products and APIs.
 
 #### Anticipated Outcomes
-Publicly releasing all data products and APIs managed under the Lunar SDI ensures that these resources are available to the widest audience possible and seeks to democratize the availability of these data and infrastructure. We aim to advertise publicly released data and APIs in a manner that is discoverable, accessible, and usable {{< cite "Laura:2018ess" >}}, and that follows leading [FAIR](https://www.go-fair.org/fair-principles/) practices {{< cite "Wilkinson:2016" >}}). 
+A published clearing house identifying the Lunar SDI stanards compliant data portals that data users know are well documented and highly interoperable.
 
 #### Approach
-The Lunar SDI Working Group will make data available under both [FAIR](https://www.go-fair.org/fair-principles/) data principles and the spatial standards defined by the Lunar SDI Working Group, and to be compliant with NASA data release policies. Our approach to data product and API release follows the guidelines described in the NASA Scientific Information policy for the Science Mission Directorate ([SPD-41a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf)). Specifically, data formats will be machine readable to allow for automated processing and will include robust, standards-compliant metadata. All data, APIs, and software will be released under an open license, and will be indexed as part of the appropriate NASA catalog (i.e., either data or software). Lunar SDI Working Group linked repositories will also adhere to standards for accessibility of all electronic and information technology for people with disabilities and with a principle of non-discriminatory data access so that all users will be treated equally.
+The Lunar SDI working group will promote data made available under [FAIR](https://www.go-fair.org/fair-principles/) data principles and the spatial standards defined by the Lunar SDI. Our approach to data product and API release follows the guidelines described in the NASA Scientific Information policy for the Science Mission Directorate ([SPD-41a](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD-information-policy-SPD-41a.pdf)). Specifically, data formats will be machine readable to allow for automated processing and will include robust, standards-compliant metadata. All data, APIs, and software will be released under an open license, and will be indexed as part of the appropriate NASA catalog (i.e., either data or software). Lunar SDI working group promoted repositories will also adhere to standards for accessibility of all electronic and information technology for people with disabilities and with a principle of non-discriminatory data access so that all users will be treated equally.
 ### Actions
 |  | Action |	Status |
 |--|--------|----------|
@@ -157,7 +157,7 @@ The Lunar SDI Working Group will make data available under both [FAIR](https://w
 Engage with tool developers to ensure support for data and standards included in the Lunar SDI.
 
 ### Anticipated Outcomes
-We seek to provide a catalog of data and derived data products in a well-documented and standardized format that will benefit many user communities. By engaging with tool and data portal developers, we will better understand the needs of this community and be positioned to collaborate with these groups. We seek to minimize the need to regenerate or reprocess existing data, thereby minimizing redundant efforts within the Lunar community. This engagement will help us to provide data in a manner where tool and data portal developers could access the data within the SDI with minimal subsequent processing needed, rather than these providers regenerating or reprocessing data themselves.
+An ecosystem of tools consuming data portals and APIs that are publicized by working group members and the Lunar SDI web portal.
 
 ### Approach
 We will identify groups developing tools or data portals targeted for use by the Lunar community and initiate communication with these groups. We will engage in informal collaborations with interested teams, seeking to develop mutually beneficial partnerships. Our collaboration focus will be educating others about the availability of data, supporting others in the use of Lunar SDI-provided services, identifying points of friction for using the Lunar SDI, and using this feedback to help develop future efforts.
@@ -167,8 +167,8 @@ We will identify groups developing tools or data portals targeted for use by the
 |--|--------|----------|
 | 8.1	| Identify groups developing tools or data portals targeted for use by the Lunar community. |Future effort|
 | 8.2	| Initiate communication with the above defined groups.	|Future effort|
-| 8.4	| Enable metrics to measure the use of the Geoportal, APIs, and the download of data. |	Future effort |
-| 8.5	| Enable metrics to measure usage of the API. |	Future effort |
+| 8.3	| Enable metrics to measure the use of the Geoportal, APIs, and the download of data. |	Future effort |
+| 8.4	| Enable metrics to measure usage of the API. |	Future effort |
 
 ### References
 {{< bibliography cited>}}

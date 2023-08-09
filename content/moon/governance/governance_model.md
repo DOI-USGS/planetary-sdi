@@ -1,10 +1,10 @@
 ---
 title: Governance Model
-weight: 6
+weight: 4
 ---
 
 **DRAFT**
-The Lunar SDI Working Group is governed through two complementary strategies: 1) regular working group meetings, and 2) asynchronous collaborations using email and a shared work drive. 
+The Lunar SDI is governed through two complementary strategies: 1) regular working group meetings, and 2) asynchronous collaborations using email or a shared repository. 
 
 ## Meetings and Ratification of Minutes
 The working group meets regularly (roughly monthly) using tools that enable participation by the community. We use a videoconferencing platform for our meetings. Working group members are expected to regularly participate in working group activities. The Chair sends a calendar invite to all working group members prior to the meeting. The Chair also sets the meeting agenda and runs the meeting unless they have delegated that role to another member or subject matter expert. Meetings are generally not recorded.
@@ -27,4 +27,4 @@ If an agenda item cannot reach a consensus, a working group member can call for 
 Note that changes to the working group membership require consensus. If there are any objections to adding or removing individual members, an effort must be made to resolve those objections. If consensus cannot be reached, then the discussed change to membership is not implemented.
 
 ## Asynchronous Communication and Collaboration
-In addition to monthly meetings, the Lunar SDI working group maintains a public repository of working documents, meeting notes, and presentations. This folder is a mechanism for asynchronous collaboration between members and allows for collaboration on tasks pertaining to the management of this SDI (e.g., editing documents, developing standards, supporting data ingestion). All group members have access to this internal use folder.  Email is also commonly used to communicate with the working group between meetings.
+In addition to monthly meetings, the working group maintains a public repository of working documents, meeting notes, and presentations. This folder is a mechanism for asynchronous collaboration between members and allows for collaboration on tasks pertaining to the management of this SDI (e.g., editing documents, developing standards, supporting data ingestion). All group members have access to this internal use folder.  Email is also commonly used to communicate with the working group between meetings.
