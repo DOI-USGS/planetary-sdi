@@ -3,7 +3,6 @@ title: Governance Model
 weight: 4
 ---
 
-**DRAFT**
 The Lunar SDI is governed through two complementary strategies: 1) regular working group meetings, and 2) asynchronous collaborations using email or a shared repository. 
 
 ## Meetings and Ratification of Minutes

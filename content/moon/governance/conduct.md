@@ -3,8 +3,6 @@ title: Working Group Code of Conduct
 weight: 2
 ---
 
-**DRAFT**  
-
 Our goal is to create a safe and productive environment for everyone and to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. This policy applies to the Lunar SDI working group, our related interactions and meetings, interactions involving our community of users that occur outside of formal meetings, and when an individual is officially representing the Lunar SDI working group in public spaces. Examples of representing our community include corresponding through e-mail, posting via a social media account, or acting as an appointed representative at an online or in-person event. Explicitly stating our expectations for our interactions improves inclusivity and accessibility for all, but especially for those with lower power due to not “fitting the norm” or those at a disadvantage due to less familiarity with the group and its typical dynamics. 
  
  

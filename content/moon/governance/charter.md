@@ -3,8 +3,6 @@ title: Charter
 weight: 1
 ---
 
-**DRAFT**
-
 ## Summary
 The Lunar Spatial Data Infrastructure working group will evaluate existing spatial data and data standards for the Moon and assess spatial data storage, acquisition, discovery, and use needs of the Lunar community. Spatial data infrastructure (SDI) is the enabling collection of spatial data users, data interoperability agreements, policies and standards, data access mechanisms, and the spatial data themselves (Rajabifard et al., 2002). The overarching goal of the Lunar SDI is to allow individuals that are not spatial data experts to use spatial data to the greatest extent possible, with the lowest possible overhead (Laura et al., 2018). This working group will address complexities by defining policies and standards that will be applicable to this SDI regarding data interoperability, data contribution, and the long-term maintenance of this SDI for the benefit of all user communities.
 

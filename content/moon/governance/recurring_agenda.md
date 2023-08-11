@@ -3,8 +3,6 @@ title: Recurring Agenda Topics
 weight: 5
 ---
 
-**DRAFT**
-
 Subject matter expertise within the Lunar SDI working group is organized primarily around the following topics, which are closely related to the Lunar SDI objectives (see Appendix 1 below and the Lunar SDI Strategy Document). However, additional topics may be added to the agenda at any time. Smaller focus groups may meet separately or asynchronously, as needed, and the results of such discussions are presented to the entire working group at regular meetings.
 
 ### Foundational And Framework Data
