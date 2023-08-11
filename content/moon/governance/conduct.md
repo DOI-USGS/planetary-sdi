@@ -62,4 +62,4 @@ Our Code of Conduct is adapted from several sources, including the [Professional
 
 ## About this Code of Conduct
 - Version: 1.0
-- Adopted: date adopted
+- Adopted: 08.10.2023

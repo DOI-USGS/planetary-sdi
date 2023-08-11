@@ -21,4 +21,4 @@ Engage with the user community, funding agencies, and NASA Advisory Groups to en
 
 ## About the Charter
 - Version: 1.0
-- Adopted: date adopted
+- Adopted: 08.10.2023
