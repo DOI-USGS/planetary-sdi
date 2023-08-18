@@ -26,11 +26,10 @@ An SDI is one portion of the Planetary Data Ecosystem (PDE). It is complementary
 The following guiding principles are used to assess proposed activities and priorities when formulating and communicating the strategy of the Lunar SDI: 
  
 The Lunar Spatial Data Infrastructure: 
-- Is a voluntary cooperation between lunar exploration community members 
-- Builds incrementally from the traditional major lunar data users, data providers, and stakeholders 
-- Reflects user and stakeholder needs to enable interoperability and reusability via standardization 
-- Remains focused on its strategic plan while developing infrastructure and services 
-- Leverages existing NASA SDI and Planetary Data Ecosystem (PDE) investments 
+- First, do no harm
+- Standards for interoperability of data at the global scale are not the same as operational needs for a given mission or project
+- Discrepancies between future goals and current capabilities are opportunities for growth and not roadblocks
+- The lunar exploration community will grow rapidly, and new viewpoints are welcome
 
 ### References
 {{< bibliography cited>}}
