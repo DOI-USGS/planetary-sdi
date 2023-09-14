@@ -25,7 +25,6 @@ An SDI is one portion of the Planetary Data Ecosystem (PDE). It is complementary
 # Guiding Principals
 The following guiding principles are used to assess proposed activities and priorities when formulating and communicating the strategy of the Lunar SDI: 
  
-The Lunar Spatial Data Infrastructure: 
 - First, do no harm
 - Standards for interoperability of data at the global scale are not the same as operational needs for a given mission or project
 - Discrepancies between future goals and current capabilities are opportunities for growth and not roadblocks
