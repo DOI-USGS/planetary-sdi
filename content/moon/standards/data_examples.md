@@ -53,6 +53,16 @@ Data providers can choose to provide data with a WKT string that does not have a
 
 For providers wishing to use `proj:json`, the same [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) command can be used to perform a conversion.
 
+#### Conversion from proj:json to WKT (and back).
+[PROJJSON](https://proj.org/en/9.3/specifications/projjson.html) is simply a JSON wrapper around a WKT2 projection string. A PROJJSON string and a WKT2 string contain the same information encoded differently. Therefore conversion from one format to another can be accomplished using existing tools.
+
+The []`projinfo`]() command, that ships with the proj library (a dependency of GDAL, among many other spatial libraries) can perform format conversion. for example, the WKT example above can be converted to PROJJSON using: `projinfo IAU_2015:30130 -o projjson`. 
+
+#### Why not use just proj short codes or simple proj strings?
+Proj short code (e.g., `IAU_2015:30100`) are not interoperable when a client does not have access to a proj database with that short code. For example, use of a short code will fail for most, if not all, web clients because they do not have the proj database (PROJSON is preferred). Likewise, older ArcGIS or QGIS installations are not guaranteed to have up to date proj databases.
+
+Simple proj strings (e.g., `+proj=latlong +R=1737400`) are concise and usable in many applications. While portable and relatively easy to remember, these strings are lossy. They do not encode the same information (such as horizontal or  vertical datum) as a WKT or PROJJSON string. Therefore, the use of these strings to describe Lunar SDI endored data is not encouraged.
+
 ### Human Readable Metadata
 Examples of human readable, lunar focused metadata are available [here](https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/). The data documentation have been written targeting new data users with some background in planetary science, but no previous knowledge of this particular data set. All processing applied is described in plain language (see below for provenance or reproducibility examples), quantitative issues with the data are described, and when possible screen captures or GIFs are provided illustrating what these issues look like, and qualitative issues are discussed under the general usability heading. This format is one example of how a data provider can document their data and illustrates the style of documentation the Lunar SDI is promoting.
 
