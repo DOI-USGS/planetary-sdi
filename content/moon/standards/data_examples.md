@@ -8,7 +8,7 @@ weight: 70
 This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI compliant ARD.
 
 ### Map Projections
-- Data at rest map projections can be specified using WKT and/or `proj:json` strings. Providers can use projection short codes, such as `IAU:2015:30130` or `IAU_2015:30130` in most tools that use the PROJ library (e.g., GDAL, QGIS, Proj4Lealet, etc.). Alternatively, one can use the long form as seen [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html).
+- Data at rest map projections can be specified using WKT and/or `proj:json` strings. Providers can use projection short codes, such as `IAU:2015:30130` or `IAU_2015:30130` in most tools that use the PROJ library (e.g., GDAL, QGIS, Proj4Lealet, etc.). Alternatively, one can use the long form as seen [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
 
 ```
 PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
@@ -47,9 +47,9 @@ PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
     ID["IAU", 30130, 2015]]
 ```
 
-This example uses the lunar spherical datum, with ocentric latitudes, the IAU defined ellipsoid radii, and standard PROJ lat/lon ordering and definitions. This is a projection for a North Polar, Stereographic projection centered on the pole. 
+This example uses the lunar spherical datum, with ocentric (in this case the same as ographic) latitudes, the IAU WGCCRE defined ellipsoid radii (in this case a spherical radius), and standard PROJ lat/lon ordering and definitions. This is a projection for a North Polar, Stereographic projection centered on the pole. 
 
-Data providers can choose to provide data with a WKT string that does not have a short code (i.e., `IAU_2015:30130`). Why might one do this? With high resolution data, it is often preferable to use locally centered projections. When providing data this way, no short code exists and data providers are cautioned to be careul to specify a valid WKT string. One can run [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) as a tool for starting to validate a custom WKT projection definition.
+Data providers can choose to provide data with a WKT string that does not have a short code (i.e., `IAU_2015:30130`). Why might one do this? With high resolution data, for example at a landing site, it is often preferable to use locally centered projections. When providing data this way, no short code exists and data providers are cautioned to be careful to specify a valid WKT string. One can run [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) as a tool for starting to validate a custom WKT projection definition.
 
 For providers wishing to use `proj:json`, the same [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) command can be used to perform a conversion.
 
@@ -73,6 +73,13 @@ Examples of [STAC](https://stacspec.org) metadata, with support for planetary sp
 - [STAC Specification](https://github.com/radiantearth/stac-spec)
 - [STAC Solar System Extension](https://github.com/stac-extensions/ssys)
 - [Additional STAC Extensions](https://stac-extensions.github.io): See View Geometry, Electro-Optical, Projection, Point Cloud, Raster, and Scientific Citation for extensions known to be actively used by planetary STAC collections.
+
+### Creating GeoPackage Vector Data Sets   
+GeoPackage data sets can be created natively in QGIS and ArcGIS. Alternatively, command line tools can be used to convert legacy shapefiles to the more modern GeoPackage format.
+
+- [In ArcGIS / ArcPro](https://learn.openwaterfoundation.org/owf-learn-geopackage/using-geopackage/arcgis/)
+- [In QGIS 2 / 3](https://learn.openwaterfoundation.org/owf-learn-geopackage/using-geopackage/qgis/)
+- [Using ogr2ogr](https://gdal.org/programs/ogr2ogr.html)
 
 ### Provenance  
 Provenance files will vary by data product. Here are a few examples that are attempting to be closer to plain text scripts that users can simply run, to reproduce the processing that has been applied. 
