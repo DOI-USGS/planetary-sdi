@@ -5,10 +5,12 @@ weight: 70
 
 **DRAFT**
 
-This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI compliant ARD.
+This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI compliant ARD. This is a living, non-exhaustive list of examples. We would appreciate any feedback, requests for additional examples, or contributions to help the community of data producers and data providers.
 
 ### Map Projections
-- Data at rest map projections can be specified using WKT and/or `proj:json` strings. Providers can use projection short codes, such as `IAU:2015:30130` or `IAU_2015:30130` in most tools that use the PROJ library (e.g., GDAL, QGIS, Proj4Lealet, etc.). Alternatively, one can use the long form as seen [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
+Map projections can be specified using Well Known Text (WKT) projection strings,[`proj:json`](https://proj.org/en/6.2/usage/projjson.html) strings, and/or [PROJ](https://proj.org/en/9.4/)defined projection short codes such as `IAU:2015:30130` or `IAU_2015:30130`. The options for communicating the data projection are provided in order of preference, with WKT projection strings offering the highest interoperability across tools and projection short codes offering good, but not universal interoperability[^1]. 
+
+To find IAU endorsed WKT projection strings see [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
 
 ```
 PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
@@ -47,21 +49,21 @@ PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
     ID["IAU", 30130, 2015]]
 ```
 
-This example uses the lunar spherical datum, with ocentric (in this case the same as ographic) latitudes, the IAU WGCCRE defined ellipsoid radii (in this case a spherical radius), and standard PROJ lat/lon ordering and definitions. This is a projection for a North Polar, Stereographic projection centered on the pole. 
+This WKT string is complex and encodes a lot of information. The horizontal datum being used, radii, map projection and map project parameters, and units (x,y and degrees) are all specified. When questions arise, data producers are encouraged to work with data providers, who expertise with these projection strings.
 
-Data providers can choose to provide data with a WKT string that does not have a short code (i.e., `IAU_2015:30130`). Why might one do this? With high resolution data, for example at a landing site, it is often preferable to use locally centered projections. When providing data this way, no short code exists and data providers are cautioned to be careful to specify a valid WKT string. One can run [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) as a tool for starting to validate a custom WKT projection definition.
+Data providers can choose to provide data with a WKT string outside those available [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). Why might one do this? With high resolution data, for example at a landing site, it is often preferable to use locally centered projections (with different center latitude, center longitude parameters which are not defaults provided at the aforementioned link). When providing data this way data providers are cautioned to be careful to specify a valid WKT string. One can run [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) as a tool for starting to validate a custom WKT projection definition.
 
 For providers wishing to use `proj:json`, the same [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) command can be used to perform a conversion.
 
 #### Conversion from proj:json to WKT (and back).
 [PROJJSON](https://proj.org/en/9.3/specifications/projjson.html) is simply a JSON wrapper around a WKT2 projection string. A PROJJSON string and a WKT2 string contain the same information encoded differently. Therefore conversion from one format to another can be accomplished using existing tools.
 
-The []`projinfo`]() command, that ships with the proj library (a dependency of GDAL, among many other spatial libraries) can perform format conversion. for example, the WKT example above can be converted to PROJJSON using: `projinfo IAU_2015:30130 -o projjson`. 
+The [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) command, that ships with the PROJ library (a dependency of GDAL, among many other spatial libraries) can perform format conversion. for example, the WKT example above can be converted to PROJJSON using: `projinfo IAU_2015:30130 -o projjson`. 
 
-#### Why not use just proj short codes or simple proj strings?
-Proj short code (e.g., `IAU_2015:30100`) are not interoperable when a client does not have access to a proj database with that short code. For example, use of a short code will fail for most, if not all, web clients because they do not have the proj database (PROJSON is preferred). Likewise, older ArcGIS or QGIS installations are not guaranteed to have up to date proj databases.
+#### Why not use just PROJ short codes or simple PROJ strings?
+PROJ short codes (e.g., `IAU_2015:30100`) are not interoperable when a client does not have access to a PROJ database with that short code. For example, use of a short code will fail for most, if not all, web clients because they do not have the PROJ database (PROJSON is preferred). Likewise, older ArcGIS or QGIS installations are not guaranteed to have up to date PROJ databases.
 
-Simple proj strings (e.g., `+proj=latlong +R=1737400`) are concise and usable in many applications. While portable and relatively easy to remember, these strings are lossy. They do not encode the same information (such as horizontal or  vertical datum) as a WKT or PROJJSON string. Therefore, the use of these strings to describe Lunar SDI endored data is not encouraged.
+Simple PROJ strings (e.g., `+proj=latlong +R=1737400`) are concise and usable in many applications. While portable and relatively easy to remember, these strings are lossy. They do not encode the same information (such as horizontal or  vertical datum) as a WKT or PROJJSON string. Therefore, the use of these strings to describe Lunar SDI endored data is discouraged.
 
 ### Human Readable Metadata
 Examples of human readable, lunar focused metadata are available [here](https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/). The data documentation have been written targeting new data users with some background in planetary science, but no previous knowledge of this particular data set. All processing applied is described in plain language (see below for provenance or reproducibility examples), quantitative issues with the data are described, and when possible screen captures or GIFs are provided illustrating what these issues look like, and qualitative issues are discussed under the general usability heading. This format is one example of how a data provider can document their data and illustrates the style of documentation the Lunar SDI is promoting.
@@ -92,4 +94,4 @@ Provenance files will vary by data product. Here are a few examples that are att
 
 {{< comments >}}
 
-[^1]: Combined with the provenance files, this allows users to recreate products from source files, reproducing or modifying the processing pipeline as desired.
+[^1]: IAU short codes require the PROJ shipped database which is available for local installs (e.g., with GDAL, ArcGIS, QGIS, etc). The PROJ database is not available for most javascript clients. Therefore, WKT strings offer higher interoperability than short-codes.
