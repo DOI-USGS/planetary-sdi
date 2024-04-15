@@ -21,7 +21,7 @@ The standards described here are general, because the ability to create metadata
 - Accuracy statements should consider using a standard reporting mechanism such as the [ISO 19157:2013 standard](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). 
 
 ### Qualitative Fitness of Use 
-We are not aware of existing qualitative, fitness-for-use standards. Therefore, these statements can be varied in form. Please consider describing what types of qualitative issues may be present in a given data sets, what use cases are most likely given the data product, and what use cases require caution.
+We are not aware of existing qualitative, fitness-for-use standards. Therefore, these statements can be varied in form. Please consider describing the types of qualitative issues that may be present in the given dataset, the motivation for the original data collection and initial intended use, the use cases that are most likely for the data product, and the use cases where caution is required.
 
 ### Provenance and Traceabilty
 The goal of provenance is to allow a user to reproduce the creation of an analysis ready data product from the archived form. Why is this desirable? As an example, for some applications, the traceability of individual pixel values can be of extreme importance. Are their values anomalous because of processing that occurred, or are they observations warranting additional study? To allow users to answer those questions, they must be able to re-create a data product, stopping at any step along the creation process to perform their own analysis.
