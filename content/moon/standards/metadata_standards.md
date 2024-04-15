@@ -14,11 +14,15 @@ The standards described here are general, because the ability to create metadata
 - have an accessible data documentation page, and possibly one or more peer-reviewed publications, that contain best effort quantitative accuracies and a qualitative, fitness-of-use report.
 - include provenance information describing how the data were created in a manner that supports transparency and reproducibility from archived data. This could be a listing of the exact processing commands and software version information used to create the data from archived from or a detailed, plain text description of all processing steps.
 
+Marc: introduction materials here. References to be added. FAIR, SPD-41a(?). TL;DR here. If it doesn't have stac it isn't a thing. As an alternative, metadata need to be registered with a federal metadata repository. Include this language in the intro. 
+
+Jay: Add language here, you are a producer and you don't know what this means. Work with a provider.
+
 ### Metadata Content
-- Data will have qualitative process and usability information available in text format that describes (1) a description of the data set, (2) the process used to create the data, (3) the available assets or files within a data set, (4) the precision, accuracy, errors, and identification of error sources and known issues with the data set, (5) the qualitative usability of the data set (as mediated by the data provider), (6) textual description of the proposed update cadence for this data set, and (7) optionally textual links to other data sets of potential interest to users of this data set.
+Data will have qualitative process and usability information available in text format that describes (1) a description of the data set, (2) the process used to create the data, (3) the available assets or files within a data set, (4) the precision, accuracy, errors, and identification of error sources and known issues with the data set, (5) the qualitative usability of the data set (as mediated by the data provider), (6) textual description of the proposed update cadence for this data set, and (7) optionally textual links to other data sets of potential interest to users of this data set.
 
 ### Accuracy Descriptions
-- Accuracy statements should consider using a standard reporting mechanism such as the [ISO 19157:2013 standard](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). 
+Accuracy statements should consider using a standard reporting mechanism such as the [ISO 19157:2013 standard](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). 
 
 ### Qualitative Fitness of Use 
 We are not aware of existing qualitative, fitness-for-use standards. Therefore, these statements can be varied in form. Please consider describing what types of qualitative issues may be present in a given data sets, what use cases are most likely given the data product, and what use cases require caution.
@@ -32,10 +36,10 @@ To support this, a data provider should provide some reasonable mechanism for re
 Data derived in whole or in part using AI/ML techniques must be clearly labelled as such. When possible, the inpout data sets and model(s) used should be described. As with all data, qualitative and quantitative metadata are essential. When feasible, models and training data should be made available and linked in the data documentation.
 
 ### Data Interpolation
-For derived data (e.g., DTMs, image mosaics, etc.), decisions made by the data producer to interpolate the data should document the method selected and the rationale. This supports user interpretation of the data and helps with traceability of data values within the product. Further, when possible data should be provided in gridded and ungridded (e.g., point cloud for DTMs) forms.
+For derived data (e.g., DTMs, image mosaics, etc.), decisions made by the data producer to interpolate the data should document the method selected and the rationale. This supports user interpretation of the data and helps with traceability of data values within the product. 
 
 ### Licensing
-- Data should be licensed using the open [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license. When allowable by the funding agency, data may also be licensed using [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), thereby requiring attribution, or [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) thereby requiring attribution and including a share-alike clause requiring derived products to adopt the same license.
+Data licensing can be mandated by the funders of the data creation. For all data producers and data providers governed by the NASA SMD [SPD-41a](https://science.nasa.gov/researchers/open-science/science-information-policy/) guidance concerning SMD-funded data, the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license (SPD-41a, III.C.vii, pg. 5) should be used. We are promoting this license to align with SPD-41a. For data not governed by SPD-41a, we suggest open, permissive licenses with attribution ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)) or attribution and share-alike clauses ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 ### File Formats
 - Data will have a Spatio-Temporal Asset Catalog ([STAC](https://www.google.com/search?client=safari&rls=en&q=spatio-temporal+asset+catalog&ie=UTF-8&oe=UTF-8)) metadata JSON file.
