@@ -14,9 +14,6 @@ The standards described here are general, because the ability to create metadata
 - have an accessible data documentation page, and possibly one or more peer-reviewed publications, that contain best effort quantitative accuracies and a qualitative, fitness-of-use report.
 - include provenance information describing how the data were created in a manner that supports transparency and reproducibility from archived data. This could be a listing of the exact processing commands and software version information used to create the data from archived from or a detailed, plain text description of all processing steps.
 
-Marc: introduction materials here. References to be added. FAIR, SPD-41a(?). TL;DR here. If it doesn't have stac it isn't a thing. As an alternative, metadata need to be registered with a federal metadata repository. Include this language in the intro. 
-
-Jay: Add language here, you are a producer and you don't know what this means. Work with a provider.
 
 ### Metadata Content
 Data will have qualitative process and usability information available in text format that describes (1) a description of the data set, (2) the process used to create the data, (3) the available assets or files within a data set, (4) the precision, accuracy, errors, and identification of error sources and known issues with the data set, (5) the qualitative usability of the data set (as mediated by the data provider), (6) textual description of the proposed update cadence for this data set, and (7) optionally textual links to other data sets of potential interest to users of this data set.
