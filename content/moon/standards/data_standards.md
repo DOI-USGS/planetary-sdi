@@ -21,7 +21,7 @@ The vertical datum to be used is a reference sphere with a 1737.4 km radius as d
 
 A best practice we promote is the specification of height based on the body radius. Heights in these data sets will be stored in a [Body-Centered, Body-Fixed](https://en.wikipedia.org/wiki/Earth-centered,_Earth-fixed_coordinate_system) coordinate system with heights taking the form of radius values and the origin being the IAU-defined body center (center of mass). When data sets with a vertical component store height in a different form, for example, height above some ellipsoid, data producers and data providers must ensure proper documentation **and** a properly declared vertical datum in the metadata.
 
-Ideally, any computed heights should use the best available lunar geoid (and not an ellipsoid). The current best available lunar geoid is the [GRGM1200A geoid](https://pgda.gsfc.nasa.gov/products/50), though that product uses a radius of 1738km (and not the newer, IAU-endorsed radius of 1737.4km).
+Ideally, any computed potential heights should use the best available lunar geoid (and not a geometric surface, such as a shere or ellipsoid). The current best available lunar geoid is the [GRGM1200A geoid](https://pgda.gsfc.nasa.gov/products/50), though that product uses a radius of 1738km (and not the newer, IAU-endorsed radius of 1737.4km).
 
 The standard horizontal datum to be used is the 2008 JPL DE 421 rotated to the ME frame, which is expected to shift to the 2021 JPL DE 440 ephemeris rotated to the DE 421 ME frame (and new projects should begin using the DE 440). The proxy products that data creators can use to tie new data products to the horizontal reference frames include: 
 - Gridded Lunar Orbiter Laser Altimeter (LOLA):
