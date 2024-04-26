@@ -15,41 +15,43 @@ The standards described here are general, because the ability to create metadata
 - include provenance information describing how the data were created in a manner that supports transparency and reproducibility from archived data. This could be a listing of the exact processing commands and software version information used to create the data from archived from or a detailed, plain text description of all processing steps.
 - ultimately metdata should be indexed in a federal data catalog as directed by NASA SMD information policy [SPD-41a](https://smd-cms.nasa.gov/wp-content/uploads/2023/08/smd-information-policy-spd-41a.pdf) so that resources are discoverable via [data.gov](https://data.gov/).
 
+
 ### Metadata Content
-- Data will have qualitative process and usability information available in text format that describes (1) a description of the data set, (2) the process used to create the data, (3) the available assets or files within a data set, (4) the precision, accuracy, errors, and identification of error sources and known issues with the data set, (5) the qualitative usability of the data set (as mediated by the data provider), (6) textual description of the proposed update cadence for this data set, and (7) optionally textual links to other data sets of potential interest to users of this data set.
+Data will have qualitative process and usability information available in text format that describes (1) a description of the data set, (2) the process used to create the data, (3) the available assets or files within a data set, (4) the precision, accuracy, errors, and identification of error sources and known issues with the data set, (5) the qualitative usability of the data set (as mediated by the data provider), (6) textual description of the proposed update cadence for this data set, and (7) optionally textual links to other data sets of potential interest to users of this data set.
 
 ### Accuracy Descriptions
-- Accuracy statements should consider using a standard reporting mechanism such as the [ISO 19157:2013 standard](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). 
+Accuracy statements should consider using a standard reporting mechanism such as the [ISO 19157:2013 standard](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). 
 
 ### Qualitative Fitness of Use 
-We are not aware of existing qualitative, fitness-for-use standards. Therefore, these statements can be varied in form. Please consider describing what types of qualitative issues may be present in a given data sets, what use cases are most likely given the data product, and what use cases require caution. When in doubt, describing the original purpose for which the data were created is a good starting point.
+We are not aware of existing qualitative, fitness-for-use standards. Therefore, these statements can be varied in form. Please consider describing the types of qualitative issues that may be present in the given dataset, the motivation for the original data collection and initial intended use, the use cases that are most likely for the data product, and the use cases where caution is required. Please also describe the original purpose for which the data were created.
 
-### Provenance and Traceabilty
-The goal of provenance is to allow a user to reproduce the creation of an analysis ready data product from the archived form. Why is this desirable? As an example, for some applications, the traceability of individual pixel values can be of extreme importance. Are their values anomalous because of processing that occurred, or are they observations warranting additional study? To allow users to answer those questions, they must be able to re-create a data product, stopping at any step along the creation process to perform their own analysis.
+
+### Provenance and Traceability
+The goal of provenance is to allow a user to reproduce the creation of an analysis-ready data product from the archived form. Why is this desirable? As an example, for some applications, the traceability of individual pixel values can be of extreme importance. Are their values anomalous because of processing that occurred, or are they observations warranting additional study? To allow users to answer those questions, they must be able to re-create a data product, stopping at any step along the creation process to perform their own analysis.
 
 To support this, a data provider should provide some reasonable mechanism for recreation. Some potential options include a text file or script with the commands and information on the software and software version used to create the file or a step-by-step plain language description of the processing steps including citations for the tools used. When possible, links to source data in the PDS or elsewhere should be provided.
 
-### Articial Intellegence / Machine Learning Derived Data
+### Artificial Intelligence / Machine Learning Derived Data
 Data derived in whole or in part using AI/ML techniques must be clearly labelled as such. When possible, the input data sets and model(s) used should be described. As with all data, qualitative and quantitative metadata are essential. When feasible, models and training data should be made available and linked in the data documentation.
 
 ### Data Interpolation
-For derived data (e.g., DTMs, image mosaics, etc.), decisions made by the data producer to interpolate the data should document the method selected and the rationale. This supports user interpretation of the data and helps with traceability of data values within the product. Further, when possible data should be provided in gridded and ungridded (e.g., point cloud for DTMs) forms.
+For derived data (e.g., DTMs, image mosaics, etc.), decisions made by the data producer to interpolate the data should document the method selected and the rationale. This supports user interpretation of the data and helps with traceability of data values within the product. 
 
 ### Licensing
-- Data should be licensed using the open [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license. When allowable by the funding agency, data may also be licensed using [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), thereby requiring attribution, or [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) thereby requiring attribution and including a share-alike clause requiring derived products to adopt the same license.
+Data licensing can be mandated by the funders of the data creation. For all data producers and data providers governed by the NASA SMD [SPD-41a](https://science.nasa.gov/researchers/open-science/science-information-policy/) guidance concerning SMD-funded data, the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license (SPD-41a, III.C.vii, pg. 5) should be used. We are promoting this license to align with SPD-41a. For data not governed by SPD-41a, we suggest open, permissive licenses with attribution ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)) or attribution and share-alike clauses ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 ### File Formats
 - Data will have a Spatio-Temporal Asset Catalog ([STAC](https://www.google.com/search?client=safari&rls=en&q=spatio-temporal+asset+catalog&ie=UTF-8&oe=UTF-8)) metadata JSON file.
 - Data can have an [ISO compliant XML metadata file](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). This file is to be as compliant as possible and should use the planetary domain extension.
 
 ### Data Linkages and Unique Identifiers
-- For data derived from lower level data, stored in a long term archive, linkages back to the source data should be provided[^1].
-- Data not easily derived from lower level data should include a unique identifier (e.g., a DOI).
-- When data are used for scientific research, a link to the journal publication should be provided.
-- When the data supersede an existing product, include versioning annotation in the title and link to the superseded data.
+- For data derived from archived sources (e.g., the PDS, JAXA DARTS, ESA PSA), linkages back to the source data should be provided. When combined with the provenance files, this allows users to recreate products from source files, reproducing or modifying the processing pipeline as desired.
+- Data not easily derived from lower-level data should include a unique identifier (e.g., a DOI).
+- Linkages to a primary, peer-reviewed, science publication should be provided when possible.
+- Linkags to superseded datasets should be provided when the releasing data would supersede a previously released data set. Ideally, this linkage is by-directional. 
 
 ### Discussion
 
 {{< comments >}}
 
-[^1]: Combined with the provenance files, this allows users to recreate products from source files, reproducing or modifying the processing pipeline as desired.
+[^1] If a DOI is not available, consider asking the archive to mint a DOI for you to best track data provenance.
