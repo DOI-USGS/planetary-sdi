@@ -8,7 +8,7 @@ weight: 70
 This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI-compliant ARD. This is a living, non-exhaustive list of examples. We would appreciate any feedback, requests for additional examples, or contributions to help the community of data producers and data providers.
 
 ### Map Projections
-Map projections can be specified using Well Known Text (WKT) projection strings,[`proj:json`](https://proj.org/en/6.2/usage/projjson.html) strings, and/or [PROJ](https://proj.org/en/9.4/) defined projection shortcodes such as `IAU:2015:30130` or `IAU_2015:30130`. The options for communicating the data projection are provided in order of preference, with WKT projection strings offering the highest interoperability across tools and projection shortcodes offering good, but not universal interoperability[^1]. To find IAU-endorsed WKT projection strings see [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
+Map projections can be specified using Well Known Text (WKT) projection strings,[`proj:json`](https://proj.org/en/6.2/usage/projjson.html) strings, and/or [PROJ](https://proj.org/en/9.4/) defined projection shortcodes such as `IAU:2015:30130` or `IAU_2015:30130`. The options for communicating the data projection are provided in order of preference, with WKT projection strings offering the highest interoperability across tools and projection shortcodes offering good, but not universal interoperability[^1]. To find WKT projection strings that reflect IAU WGCCRE recommendations see [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
 
 ```
 PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
@@ -47,7 +47,7 @@ PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar",
     ID["IAU", 30130, 2015]]
 ```
 
-This WKT string is complex and encodes a lot of information. The horizontal datum being used, radii, map projection and map project parameters, and units (x,y and degrees) are all specified. When questions arise, data producers are encouraged to work with data providers, who have expertise with these projection strings.
+This WKT string is complex and encodes a lot of information. The horizontal datum being used, radii, map projection and map projection parameters, and units (x,y and degrees) are all specified. When questions arise, data producers are encouraged to work with data providers, who have expertise with these projection strings.
 
 Data providers can choose to provide data with a WKT string outside those available [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). Why might one do this? With high-resolution data, for example, at a landing site, it is often preferable to use locally centered projections (with different center latitude, and center longitude parameters which are not defaults provided at the aforementioned link). When providing data this way data providers are cautioned to be careful to specify a valid WKT string. One can run [`projinfo`](https://proj.org/en/9.3/apps/projinfo.html) as a tool for starting to validate a custom WKT projection definition.
 
