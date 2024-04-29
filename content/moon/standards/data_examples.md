@@ -3,8 +3,6 @@ title: Examples
 weight: 70
 ---
 
-**DRAFT**
-
 This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI-compliant ARD. This is a living, non-exhaustive list of examples. We would appreciate any feedback, requests for additional examples, or contributions to help the community of data producers and data providers.
 
 ### Map Projections

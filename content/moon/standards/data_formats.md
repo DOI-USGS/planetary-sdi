@@ -2,7 +2,6 @@
 title: Lunar Data Format Standards
 weight: 50
 ---
-**DRAFT**
 
 ### Formats for Offline Data Access
 - Data in raster format should be provided as cloud-optimized[ GeoTiffs](https://www.cogeo.org)(COG), complying with the [cartographic standards]({{< ref "data_standards/#map-projections" >}}). 
