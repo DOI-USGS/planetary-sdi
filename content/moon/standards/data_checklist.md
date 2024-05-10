@@ -21,7 +21,7 @@ These data standards apply whether the data are provided in raster or vector for
 - [ ] If topographic data, the data are released with the z-dimension in radius **or** the metadata declare the reference surface from which potential heights were computed.
 
 #### Map Projection
-Many of these aspects can be verifide using the  `gdalinfo` (raster) or `ogrinfo` (vector) tools.
+Many of these aspects can be verified using the `gdalinfo` (raster) or `ogrinfo` (vector) tools.
 
 - [ ] If provided in raster format, the data are map projected.
 - [ ] If provided in vector format, the data are **not** map projected.
@@ -51,7 +51,7 @@ These apply if the data include external ephemeris information. For example, thr
 - [ ] If vector data, the data are provided using an OGC-compliant server such as WMS or WMTS **or** a vector tile server.
 - [ ] If lidar data, the data are provided using the COPC format.
 - [ ] Online data sources are properly communicating the data projection.
-- [ ] Data are discoverable via STAC metadata, provided via a STAC-API compliant server.
+- [ ] Data are discoverable via STAC metadata, provided via a STAC-API-compliant server.
 
 ### Metadata Standards
 
@@ -96,7 +96,7 @@ The metadata, preferably available in a single, human-readable webpage includes:
 
 #### Linkages
 
-- [ ] Data link back to the source archive or products used in their derivation.
+- [ ] Data links back to the source archive or products used in their derivation.
 
 ### Discussion
 
