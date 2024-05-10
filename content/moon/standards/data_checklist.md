@@ -5,8 +5,7 @@ weight: 100
 
 This section contains a checklist for data producers and data providers to use to assess the compliance of their data to the lunar SDI standards. The goal of the checklist is to help determine what level of effort would be required to bring the data set into compliance.
 
-!!!Note
-A key played by the lunar SDI is to help data producers release data via data providers. We are here to help producers. If the checklist is daunting or the steps needed to alter the data are unclear, please reach out.
+A key role played by the lunar SDI is to help data producers release data via data providers. We are here to help producers and providers. If the checklist is daunting or the steps needed to alter the data are unclear, please reach out.
 
 ### Data Standards
 These data standards apply whether the data are provided in raster or vector formats.
