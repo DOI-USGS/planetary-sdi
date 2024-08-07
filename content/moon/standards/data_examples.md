@@ -5,6 +5,11 @@ weight: 70
 
 This section contains more technical content, with example metadata as well as links to sample data, metadata, and data creation tutorials to support the creation of Lunar SDI-compliant ARD. This is a living, non-exhaustive list of examples. We would appreciate any feedback, requests for additional examples, or contributions to help the community of data producers and data providers.
 
+### Validating Data Standards
+The `ogrinfo` and `gdalinfo` tools can be used to validate many of the LSDI standards requirements. The GDAL team maintains documentation describing how to [install these tools](https://gdal.org/download.html). Once installed, used can run [`gdalinfo`](https://gdal.org/programs/gdalinfo.html) for raster data and [`ogrinfo`](https://gdal.org/programs/ogrinfo.html) for vector data.
+
+One can then check the spatial reference string output for required elements such as the radius (e.g., `ELLIPSOID["Moon (2015) - Sphere", 1737400, 0,`), the datum (e.g., `DATUM["Moon (2015) - Sphere"`), the map projection (e.g., `PROJCRS["Moon (2015) - Sphere / Ocentric/ North Polar"`), and the longitude domain (e.g., `PARAMETER["Longitude of natural origin", 0`).
+
 ### Map Projections
 Map projections can be specified using Well Known Text (WKT) projection strings,[`proj:json`](https://proj.org/en/6.2/usage/projjson.html) strings, and/or [PROJ](https://proj.org/en/9.4/) defined projection shortcodes such as `IAU:2015:30130` or `IAU_2015:30130`. The options for communicating the data projection are provided in order of preference, with WKT projection strings offering the highest interoperability across tools and projection shortcodes offering good, but not universal interoperability[^1]. To find WKT projection strings that reflect IAU WGCCRE recommendations see [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html). An example of one such string follows:
 

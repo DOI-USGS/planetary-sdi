@@ -36,9 +36,6 @@ Data derived in whole or in part using AI/ML techniques must be clearly labeled 
 ### Data Interpolation
 For derived data (e.g., DTMs, image mosaics, etc.), decisions made by the data producer to interpolate the data should document the method selected and the rationale. This supports user interpretation of the data and helps with traceability of data values within the product. 
 
-### Licensing
-Data licensing can be mandated by the funders of the data creation. For all data producers and data providers governed by the NASA SMD [SPD-41a](https://science.nasa.gov/researchers/open-science/science-information-policy/) guidance concerning SMD-funded data, the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license (SPD-41a, III.C.vii, pg. 5) should be used. We are promoting this license to align with SPD-41a. For data not governed by SPD-41a, we suggest open, permissive licenses with attribution ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)) or attribution and share-alike clauses ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
-
 ### File Formats
 - Data will have a Spatio-Temporal Asset Catalog ([STAC](https://www.google.com/search?client=safari&rls=en&q=spatio-temporal+asset+catalog&ie=UTF-8&oe=UTF-8)) metadata JSON file.
 - Data can have an [ISO-compliant XML metadata](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality) file](https://wiki.icaci.org/index.php?title=ISO_19157:2013_Geographic_information_-_Data_quality). This file is to be as compliant as possible and should use the planetary domain extension.
