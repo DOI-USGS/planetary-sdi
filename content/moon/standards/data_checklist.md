@@ -17,13 +17,13 @@ A key role played by the lunar SDI is to help data producers release data via da
 ## Compliance Importance
 Compliance with the LSDI standards is not a binary, yes/no, assessment. Ultimately, the goal of meeting these standards is to maximize the discoverability, usability, and interoperability of data for all users. Therefore, the following high-level guidance can be used when assessing how compliant a data set is:
 
-1. Are the data in formats that are usable in tools that users already use?
-1. Are the data spatially compliant and well documented? Does a user have to intimately understand radii, datum, or map projection?
-1. Does that data have machine-readable metadata that is discoverable with the LSDI ecosystem (e.g., STAC)?
-1. Does the data have human-readable documentation, written in an accessible manner where a new user can safely use the product for science or engineering goals?
+- Are the data compliant with the [LSDI format standards](data_formats.md)? If not, what format specifications are the data complaint with and what tools will they function with?
+- Are the data spatially compliant and well documented? Does a user have to intimately understand radii, datum, or map projection?
+- Does that data have machine-readable metadata that is discoverable with the LSDI ecosystem (e.g., STAC)?
+- Does the data have human-readable documentation, written in an accessible manner where a new user can safely use the product for science or engineering goals?
 
-## A Note on PDS Archives
-PDS archives seek to solve the problem of long-term data preservation and storage. Long-term data archiving goals are orthogonal (at best) to the goals of the LSDI standards. Under the current scope of effort, as defined by the PDS, their holdings are not compliant with the LSDI standards. Rather, PDS holdings are terrific input data sets to be postprocessed to meet the LSDI standards.
+#### A Note on PDS Archives
+PDS archives seek to solve the problem of long-term data preservation and storage. Long-term data archiving goals are distinct from the goals of the LSDI standards. Under the current scope of effort, as defined by the PDS, their holdings are not compliant with the LSDI standards. Rather, PDS holdings are terrific input data sets to be postprocessed to meet the LSDI standards.
 
 ### Data Standards
 These data standards apply whether the data are provided in raster or vector formats. Most of these standards can be checked using the `gdalinfo` and `ogrinfo` tools. See our examples for guidance using those tools.

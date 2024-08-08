@@ -28,6 +28,7 @@ The standard horizontal datum to be used is the 2008 JPL DE 421 rotated to the M
 
 At this time, no globally photogrammetrically controlled visible or IR observations are usable as a proxy for the horizontal reference frame. The positional accuracy of some lunar observations are known well enough that they can be used for inter-observation alignment at a given error budget(e.g., LRO WAC observations are assessed to be accurate to ___________).
 
+
 ### Map Projections
 - Data are provided map projected, with a valid well-known text (such as those documented [here](http://voparis-vespa-crs.obspm.fr:8080/web/moon.html)) or [`proj:json`](https://proj.org/specifications/projjson.html) projection string.
   - Rationale: A goal of the lunar SDI is to improve data accessibility and access. One way to do that is to provide to users, data processed and ready for analysis. By providing map-projected products with properly defined projection strings, users can immediately work with data products from multiple providers in off-the-shelf tools.
